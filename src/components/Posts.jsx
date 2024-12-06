@@ -22,10 +22,11 @@ const Posts = () => {
   return (
     <div>
       <h1 className="font-bold text-3xl">Posts</h1>
-      <div>
+      <div className="border-r flex flex-col gap-10">
         {posts.map(post => (
-            <div key={post.id}>
-                <p>{post.title}</p>
+            <div key={post.id}  className="border shadow-lg rounded-lg font-3xl p-6 ">
+                <p className="font-semibold text-xl">{post.title}</p>
+                <p>{post.body}</p>
             </div>
         ))}
       </div>
