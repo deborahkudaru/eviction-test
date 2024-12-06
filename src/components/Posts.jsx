@@ -27,6 +27,7 @@ const Posts = () => {
             <div key={post.id}  className="border shadow-lg rounded-lg font-3xl p-6 ">
                 <p className="font-semibold text-xl">{post.title}</p>
                 <p>{post.body}</p>
+                <button className="bg-blue-500 px-4 py-1 rounded-sm text-white">bookmark</button>
             </div>
         ))}
       </div>
