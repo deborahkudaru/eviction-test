@@ -3,7 +3,7 @@ import Users from "./components/Users";
 
 function App() {
   return (
-    <div>
+    <div className="grid grid-cols-2 ">
       <Posts />
       <Users />
     </div>

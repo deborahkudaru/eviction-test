@@ -21,7 +21,7 @@ const Posts = () => {
 
   return (
     <div>
-      <h1>Posts</h1>
+      <h1 className="font-bold text-3xl">Posts</h1>
       <div>
         {posts.map(post => (
             <div key={post.id}>

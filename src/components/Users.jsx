@@ -21,7 +21,7 @@ const Users = () => {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1 className="font-bold text-3xl">Users</h1>
 
       <div>
         {users.map((user) => (
